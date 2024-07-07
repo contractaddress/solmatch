@@ -29,7 +29,6 @@ else:
     CSV = CSV[0]
     print(f'\nscanning {CSV}')
 
-
 if listfile:
     try:
         with open(listfile, 'r') as list:
@@ -38,6 +37,7 @@ if listfile:
         sys.exit(".txt file not found!")
 else:
     pass
+    
 def scan(wallet):
 
     rc = pd.read_csv(CSV)
