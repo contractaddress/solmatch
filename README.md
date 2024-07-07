@@ -1,5 +1,5 @@
 # SolMatch - v1.0
-SolMatch is a simple tool to help you find all transactions between two or multiple wallets on Solana.
+SolMatch is a simple tool to help you find all transactions between two or multiple wallets on Solana using its solscan CSV file.
 
 useful for scanning a wallet against multiple other wallets in bulk to quickly identify linked wallets of a user. Everything runs locally no need for API keys !
 
