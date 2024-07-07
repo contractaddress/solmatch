@@ -10,7 +10,7 @@ useful for scanning a wallet against multiple other wallets in bulk to quickly i
 ``` 
 git clone https://github.com/contractaddress/solmatch.git
 
-cd SolMatch
+cd solmatch
 ```
 2. make and activate a python venv (recommended)
 ```
