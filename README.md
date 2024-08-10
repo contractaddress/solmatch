@@ -8,9 +8,9 @@ useful for scanning a wallet against multiple other wallets in bulk to quickly i
 ## Installation
 1. clone the repo and cd into the directory
 ``` 
-git clone https://github.com/
+git clone https://github.com/contractaddress/solmatch.git
 
-cd SolMatch
+cd solmatch
 ```
 2. make and activate a python venv (recommended)
 ```
