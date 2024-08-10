@@ -47,7 +47,7 @@ def scan(wallet):
 
     pd.set_option('display.max_colwidth', None)
 
-    def print_result(ToF, r_ToF): #ToF == 'to or from' when printing and r_ToF == passing result_to/from variable
+    def print_result(ToF, r_ToF): #ToF == 'to or from' when printing and r_ToF == passing result_to/from variable: see line 60/61 for function call
         print(f'\n{ToF} -> [{wallet}]')
         for indexrow, row in r_ToF.iterrows():
             signature = row['Signature']
